@@ -1,0 +1,45 @@
+= BicingBCN - A module to interface Barcelona Bicing services
+
+Project Contact: Arnau Sanchez <mailto:tokland@gmail.com>
+
+BicingBCN is a simple module to interface Barcelona Bicing services:
+
+http://www.bicing.com
+
+For now it only has one method to retrieve bikes occupations.
+
+== Requirements
+
+BicingBCN needs Hpricot (HTML parser) 
+
+== Usage
+
+*code*:
+
+  require 'bicingbcn'
+  BicingBCN.occupations
+  
+*output*:
+
+  {
+    1 => {
+      :bikes_available => 2,
+      :bikes_total => 21,
+      :coordinate_latitude => 41.397978,
+      :coordinate_longitude => 2.180019,
+      :name => "Gran Via de les Corts Catalanes 760",
+    },
+    2 => {
+      ...
+    }
+  }
+
+== More information
+
+This module is being used in BicingINFO: 
+
+http://bicinginfo-no.ip.org
+
+== License
+
+Ya2YAML is distributed with a GNU/GPL license, which can be found in the file LICENSE.

@@ -1,0 +1,10 @@
+#!/usr/bin/ruby
+require 'bicingbcn'
+require 'pp'
+
+occupations = BicingBCN.occupations
+if ARGV.size >= 1
+  pp occupations[ARGV[0].to_i]
+else
+  pp occupations
+end
