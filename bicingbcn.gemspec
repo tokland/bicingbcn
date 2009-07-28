@@ -15,10 +15,10 @@ Gem::Specification::new do |spec|
   spec.test_files = "test/bicingbcn_test.rb"
   spec.add_dependency 'hpricot'
 
-  spec.extensions.push(*[])
+  #spec.extensions.push(*[])
 
   spec.rubyforge_project = 'bicingbcn'
   spec.author = "Arnau Sanchez"
   spec.email = "tokland@gmail.com"
-  spec.homepage = "http://github.com/ahoward/bicingbcn"
+  spec.homepage = "http://www.arnau-sanchez.com/en"
 end
