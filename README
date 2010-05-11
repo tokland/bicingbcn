@@ -2,24 +2,25 @@
 
 Project Contact: Arnau Sanchez <mailto:tokland@gmail.com>
 
-BicingBCN is a simple module to interface Barcelona Bicing services:
+BicingBCN is a simple module to interface Barcelona Bicing services. For
+now it only is able to retrieve bikes occupations in all stations:
 
 http://www.bicing.com
 
-For now it only has one method to retrieve bikes occupations.
-
 == Requirements
 
-BicingBCN needs Hpricot (HTML parser) 
+BicingBCN needs Hpricot (HTML parser):
+
+gem install hpricot
 
 == Usage
 
-*code*:
+Code:
 
   require 'bicingbcn'
   BicingBCN.occupations
   
-*output*:
+Output:
 
   {
     1 => {
@@ -36,10 +37,10 @@ BicingBCN needs Hpricot (HTML parser)
 
 == More information
 
-This module is being used in BicingINFO: 
+This module is currently being used in the website BicingINFO: 
 
 http://bicinginfo-no.ip.org
 
 == License
 
-Ya2YAML is distributed with a GNU/GPL license, which can be found in the file LICENSE.
+BicingBCN is distributed with a GNU/GPL license, which can be found in the file LICENSE.

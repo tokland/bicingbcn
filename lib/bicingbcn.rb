@@ -25,7 +25,7 @@ end
 # For now it only retrieves bikes occupations.
 #
 module BicingBCN
-  MAP_URI = "http://www.bicing.com/localizaciones/localizaciones.php"
+  MAP_URI = "http://www.bicing.cat/localizaciones/localizaciones.php"
 
   class Error < StandardError; end
 

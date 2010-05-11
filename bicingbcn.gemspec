@@ -17,7 +17,7 @@ Gem::Specification::new do |spec|
 
   #spec.extensions.push(*[])
 
-  spec.rubyforge_project = 'bicingbcn'
+  #spec.rubyforge_project = 'bicingbcn'
   spec.author = "Arnau Sanchez"
   spec.email = "tokland@gmail.com"
   spec.homepage = "http://www.arnau-sanchez.com/en"
